@@ -172,13 +172,21 @@
     transform: none;
   }
 }
+/** Tablet */
+@media (max-width: 820px){
+  .container {
+    background-color: rgb(0,0,255);
+  }
+}
 
 /* Mobile */
-@media (max-width: 700px) {
+@media (max-width: 414px) {
   .content {
     padding: 4rem;
   }
-
+  .container {
+    background-color:red;
+  }
   .grid {
     grid-template-columns: 1fr;
     margin-bottom: 120px;
